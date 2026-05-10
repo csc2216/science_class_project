@@ -1,0 +1,32 @@
+# Python 虛擬環境與快取
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook 快取
+.ipynb_checkpoints/
+
+# IDE 設定檔
+.vscode/
+.idea/
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
+
+# 超大檔案 (GitHub 單一檔案限制 100MB，建議忽略龐大的訓練資料)
+*.npy
+*.h5
+*.pt
+*.pth
+*.png
+
+# 忽略龐大的感測器原始紀錄數據，加速上傳
+# 忽略龐大的感測器原始紀錄數據，加速上傳
+*.txt
+*.csv
+
+# 忽略含有大量圖片輸出的超大 Notebook
+plotdata.ipynb
