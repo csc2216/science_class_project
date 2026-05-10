@@ -4,3 +4,4 @@
 ## 📂 專案主要架構
 * `ML/`：可以直接看code_for_report，跟訓練模型有關的code都整理好放在那裡了。
 * `dataprocessing/`：把原始TXT檔按sensor分開並轉成 CSV 檔，還有各種處理CSV數據的函數。
+* 數據  https://drive.google.com/drive/folders/1Qty4M-pwRaECBVvs75jeEH_3Dk20Dsy2?usp=drive_link
